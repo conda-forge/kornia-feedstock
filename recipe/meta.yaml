@@ -1,5 +1,5 @@
 {% set name = "kornia" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 778c189615bf82fd89ebb0a028ccd9fad1f5008caf5df31ee3eef3f4bd317196
+  sha256: 266e3fd4941897d4b35d91861110ae0412c8dc10efafdc73d7b673a0d1974f40
 
 build:
   noarch: python
@@ -40,7 +40,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: "Kornia is a differentiable computer vision library for PyTorch."
+  summary: Kornia is a differentiable computer vision library for PyTorch.
   doc_url: https://pypi.org/project/kornia/
   dev_url: https://github.com/kornia/kornia
 

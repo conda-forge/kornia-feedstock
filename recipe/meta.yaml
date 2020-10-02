@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >3.6
     - pytest-runner
   run:
-    - python
+    - python >3.6
     - pytorch ==1.6.0
 
 test:

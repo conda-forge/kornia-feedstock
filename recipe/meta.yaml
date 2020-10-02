@@ -21,7 +21,7 @@ requirements:
     - pytest-runner
   run:
     - python >3.6
-    - pytorch ==1.6.0
+    - pytorch
 
 test:
   imports:

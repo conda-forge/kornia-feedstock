@@ -5,11 +5,13 @@ Home: https://github.com/kornia/kornia
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kornia-feedstock/blob/master/LICENSE.txt)
 
 Summary: Kornia is a differentiable computer vision library for PyTorch.
 
+Development: https://github.com/kornia/kornia
 
+Documentation: https://pypi.org/project/kornia/
 
 Current build status
 ====================

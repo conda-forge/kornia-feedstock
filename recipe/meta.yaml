@@ -1,13 +1,13 @@
 {% set name = "kornia" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: c6c428790becb28c9af86bf9284100ea485f6c33c735d5aa2c9754bbd5395e22
+  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 068540dff9fb6baa0d06175e335f99da187a912b6bf99927d9b9178f3680323a
 
 build:
   noarch: python
@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - pytest-runner
   run:
-    - python >=3.6
-    - pytorch ==1.5.0
+    - python >=3.7
+    - pytorch
 
 test:
   imports:
@@ -49,3 +49,4 @@ extra:
     - oblute
     - rluria14
     - ndmaxar
+    - benjaminrwilson

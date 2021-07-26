@@ -1,5 +1,5 @@
 {% set name = "kornia" %}
-{% set version = "0.5.6" %}
+{% set version = "0.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 274704f4f544db2434beb4f5284145fd80869d34146ab00c5ecdc052046c5966
+  sha256: 1eb3cfd1eef341081e16dc08779dd49ca63c4d2b39b54d0811ec42ff54fe6216
 
 build:
   noarch: python

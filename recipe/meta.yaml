@@ -1,5 +1,5 @@
 {% set name = "kornia" %}
-{% set version = "0.5.8" %}
+{% set version = "0.5.11" %}
 
 package:
   name: {{ name|lower }}

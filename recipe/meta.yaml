@@ -25,7 +25,7 @@ requirements:
 
 test:
   imports:
-    # - kornia
+    - kornia
     # - kornia.augmentation
     # - kornia.color
     # - kornia.contrib

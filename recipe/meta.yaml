@@ -23,7 +23,7 @@ requirements:
     - python >=3.7
     - pytorch
     - packaging
-    - torch.linalg
+    # - torch.linalg
 
 test:
   imports:

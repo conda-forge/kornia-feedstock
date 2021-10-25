@@ -22,13 +22,12 @@ requirements:
   run:
     - python >=3.7
     - pytorch
-    - torch
     - packaging
     # - torch.linalg
 
 test:
   imports:
-    - kornia
+    # - kornia
     # - kornia.augmentation
     # - kornia.color
     # - kornia.contrib

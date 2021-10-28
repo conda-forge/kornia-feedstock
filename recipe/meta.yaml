@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=3.7
     - pytorch
+    - packaging
 
 test:
   imports:

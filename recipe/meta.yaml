@@ -28,14 +28,14 @@ requirements:
 test:
   imports:
     - kornia
-    - kornia.augmentation
-    - kornia.color
-    - kornia.contrib
-    - kornia.feature
-    - kornia.filters
-    - kornia.geometry
-    - kornia.losses
-    - kornia.utils
+    # - kornia.augmentation
+    # - kornia.color
+    # - kornia.contrib
+    # - kornia.feature
+    # - kornia.filters
+    # - kornia.geometry
+    # - kornia.losses
+    # - kornia.utils
 
 about:
   home: https://github.com/kornia/kornia

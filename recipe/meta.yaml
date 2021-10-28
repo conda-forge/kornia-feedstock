@@ -6,7 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
+  # url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: f638fb3309f88666545866c162f510b6d485fd8f7131d5570d4e6c0d295fdcd6
 
 build:

@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.7
     - pytorch
-    - torch >=1.8.0
+    - torch
     - packaging
 
 test:

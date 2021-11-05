@@ -22,7 +22,7 @@ requirements:
     - pytest-runner
   run:
     - python >=3.7
-    - pytorch => 1.10
+    - pytorch >=1.10
     - packaging
 
 test:

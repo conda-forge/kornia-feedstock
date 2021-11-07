@@ -7,7 +7,6 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
-  # url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: f638fb3309f88666545866c162f510b6d485fd8f7131d5570d4e6c0d295fdcd6
 
 build:
@@ -28,14 +27,14 @@ requirements:
 test:
   imports:
     - kornia
-    # - kornia.augmentation
-    # - kornia.color
-    # - kornia.contrib
-    # - kornia.feature
-    # - kornia.filters
-    # - kornia.geometry
-    # - kornia.losses
-    # - kornia.utils
+    - kornia.augmentation
+    - kornia.color
+    - kornia.contrib
+    - kornia.feature
+    - kornia.filters
+    - kornia.geometry
+    - kornia.losses
+    - kornia.utils
 
 about:
   home: https://github.com/kornia/kornia
@@ -48,7 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - oblute
-    - rluria14
-    - ndmaxar
+    - mxr-conda
+    - dsangillo
     - benjaminrwilson

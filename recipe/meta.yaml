@@ -1,13 +1,13 @@
 {% set name = "kornia" %}
-{% set version = "0.5.8" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa9b8bd880d32a6779709448f743bf00083bc8de3a2e190b7aa9b352b1aef283
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
+  sha256: f638fb3309f88666545866c162f510b6d485fd8f7131d5570d4e6c0d295fdcd6
 
 build:
   noarch: python
@@ -21,7 +21,8 @@ requirements:
     - pytest-runner
   run:
     - python >=3.7
-    - pytorch
+    - pytorch >=1.10
+    - packaging
 
 test:
   imports:
@@ -46,7 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - oblute
-    - rluria14
-    - ndmaxar
+    - mxr-conda
+    - dsangillo
     - benjaminrwilson

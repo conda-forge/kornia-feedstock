@@ -1,5 +1,5 @@
 {% set name = "kornia" %}
-{% set version = "0.6.9" %}
+{% set version = "0.6.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
-  sha256: b756bba0db8d47046417fa72271b2d648c570ec6f1d61e1805e6a36911f63bb9
+  sha256: 00b4e8990b5ccdc589e3ecc2613446623b0ffb2fe1db5598aac55513b4016903
 
 build:
   noarch: python

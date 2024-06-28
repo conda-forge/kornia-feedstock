@@ -150,6 +150,7 @@ Feedstock Maintainers
 * [@benjaminrwilson](https://github.com/benjaminrwilson/)
 * [@bubblyorca](https://github.com/bubblyorca/)
 * [@dsangillo](https://github.com/dsangillo/)
+* [@edgarriba](https://github.com/edgarriba/)
 * [@mukhery](https://github.com/mukhery/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 

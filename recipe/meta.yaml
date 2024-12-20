@@ -6,26 +6,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kornia-{{ version }}.tar.gz
   sha256: 1f8dd6268ca5a2f2ec04b13c48da4dfb90ba2cfae7e31e0cc80d37f6520fa3f1
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - pytest-runner
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - pytorch >=1.10
     - packaging
     - kornia-rs
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - kornia
     - kornia.augmentation
